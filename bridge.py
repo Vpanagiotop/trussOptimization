@@ -4,7 +4,7 @@ from Generator import Generator
 from optimalityCriteria import optimalityCriteria
 
 model = Generator(length=12, height=1, rmin = 3, mesh={'x':1, 'y':0.25}, pen=3)
-volfrac = 0.1
+volfrac = 0.5
 for node in model.node:
     # if node.x == 0:
     #     node.xFixed = True
